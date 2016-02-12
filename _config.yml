@@ -1,1 +1,1 @@
-include: [IMG, main.css, app.js]
+keep_files: [img, main.css, app.js];

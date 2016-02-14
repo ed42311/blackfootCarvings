@@ -7,6 +7,9 @@ body {
 a {
   color: burlywood ;
 }
+a:hover {
+  color: brown;
+}
 div#footer {
   background-color: #040707;
   width: 100%;

@@ -32,14 +32,17 @@ div.copyrightText {
   display: table-cell;
   vertical-align: middle;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto; 
 }
-img {
+p img {
+  padding: 10px;
+  margin: 10px;
+}
+img.thumbnail {
     opacity: 0.6;
     filter: alpha(opacity=60); 
 }
-img:hover {
+img.thumbnail:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); 
 }
@@ -84,12 +87,18 @@ div.thumbnail img {
   height: 60%;
   display: block;
 }
-div img #willPort {
+img #willPort {
   opacity: 8.0;
+  display: block;
+  float: left;
 }
 ol.breadcrumb {
   background-color: black;
   border-radius: 2px;
+}
+.leftWrapImg {
+  display: block;
+  float: left;
 }
 
 

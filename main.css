@@ -80,15 +80,10 @@ div img #willPort {
   opacity: 8.0;
 }
 ol.breadcrumb {
-  background-color: white;
+  background-color: black;
   border-radius: 2px;
 }
-div#title.jumbotron {
-  background: url(img/shop_tools.jpg) no-repeat;
-  background-size: 600px 400px;
-  background-position: left top;
-  border-radius: 2px;
-}
+
 
 
 

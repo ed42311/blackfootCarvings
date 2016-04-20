@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Inknut+Antiqua:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Blackfoot Carvings</title>
+    <title>Gallery</title>
   </head>
 
 <!-- **************************Body********************* -->
-  <body>
+  <body class="js">
+    <div id="preloader"></div>
     <div class="container">
       <div class="jumbotron" id="title">
         <h1>Blackfoot Carvings</h1>
@@ -23,20 +24,46 @@
           <li><a href="exp2gallery.html">Experiment 2 - Slide</a></li>
         </ol>
       </div>
-      <div class="container">
-        <p>&nbsp&nbspLorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa et quasi obcaecati! Accusantium optio quod quis dolores, beatae quo aperiam placeat, nisi non. Error, eos reprehenderit eligendi culpa ratione!</p>
-        <p><img src="img/shop_tools.jpg" alt="Shop Tools" height="200" width="300" class="leftWrapImg"> &nbsp&nbspLorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa et quasi obcaecati! Accusantium optio quod quis dolores, beatae quo aperiam placeat, nisi non. Error, eos reprehenderit eligendi culpa ratione!<br><br>
-        &nbsp&nbspLorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa et quasi obcaecati! Accusantium optio quod quis dolores, beatae quo aperiam placeat, nisi non. Error, eos reprehenderit eligendi culpa ratione!</p>
+      <div class="row flex-container">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/wc/2Profile.jpg" alt="Wooden Hand">
+            <div class="caption">
+              <h3>Hands of Man</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/wc/4Angle.jpg" alt="Trapper Wolf">
+            <div class="caption">
+              <h3>Winter Wear</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/wc/5Front.jpg" alt="...">
+            <div class="caption">
+              <h3>Bird with a Broken Wing</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="container" id="footer">
       <div class="copyrightText">
         <p>
-        Copyright William Kats and Blackfoot Carvings.  All Rights Reserved.
+        Copyright 2016 William Kats and Blackfoot Carvings.  All Rights Reserved.
         </p>
       </div>
       <img src="img/MIMlogo_MADE_NEWBW.jpg" alt="Made in Montana" height="200px" width="140px">
     </div>
+    
+  
 <!-- ^^^^^^^^^^^^^^^^^^^^^Links and style ^^^^^^^^^^^^^^^^^^^^^^^-->  
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
@@ -45,6 +72,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
-    <script type="text/jsx" src="app.js"></script>
-
+    <script type="text/javascript" src="app.js"></script>
+    
   </body>

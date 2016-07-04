@@ -1,0 +1,19 @@
+{
+  "name": "blakfootcarvings",
+  "version": "1.0.0",
+  "description": "This is the website for blackfoot carvings",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ed42311/blackfootCarvings.git"
+  },
+  "author": "E Wey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ed42311/blackfootCarvings/issues"
+  },
+  "homepage": "https://github.com/ed42311/blackfootCarvings#readme"
+}

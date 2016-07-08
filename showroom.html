@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-
 <!-- **************************Head********************* -->
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Inknut+Antiqua:300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Gallery</title>
-  </head>
-
+<head>
+ <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Inknut+Antiqua:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <intercept-url pattern="http://blackfootcarvings.com/favicon.ico" access="ROLE_ANONYMOUS" />
+  <link rel="shortcut icon" href="http://blackfootcarvings.com/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="http://blackfootcarvings.com/favicon.ico" type="image/x-icon">
+  <title>Gallery</title>
+</head>
 <!-- **************************Body********************* -->
-  <body class="js">
+  <body>
     <div class="container">
       <div class="jumbotron" id="title">
         <h1>Blackfoot Carvings</h1>
@@ -19,8 +20,6 @@
           <li><a href="showroom.html">Pieces</a></li>
           <li><a href="artist.html">Artist Bio</a></li>
           <li><a href="galleries.html">Local Galleries and Shows</a></li>
-          <li><a href="expgallery.html">Experiment 1 - Popup</a></li>
-          <li><a href="exp2gallery.html">Experiment 2 - Slide</a></li>
         </ol>
         <a href="http://bigguys.zenfolio.com/p859292010">Recent Carvings @ Juan de Santa Photography<a/>
       </div>
@@ -43,7 +42,7 @@
         </div>
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="img/wc/5Front.jpg" alt="...">
+            <img src="img/wc/5Front.jpg" alt="Bird-with-broken-wing">
             <div class="caption">
               <h3>Bird with a Broken Wing</h3>
             </div>
@@ -113,7 +112,7 @@
             </div>
           </div>
         </div>
-         <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
             <img src="img/bear/grizExpress.jpg" alt="Grizzly Growling">
             <div class="caption">
@@ -124,23 +123,25 @@
       </div>
     </div>
     <div class="container" id="footer">
-      <div class="copyrightText">
-        <p>
-        Copyright 2016 William Kats and Blackfoot Carvings.  All Rights Reserved.
-        </p>
+      <div class="row">
+        <div class="col-md-6">
+          <p> Looking for commissioned piece or to add something to your gallery? </p>
+          <hr/>
+          <strong>Contact the artist:</strong>
+          <p> Will Kats </p>
+          <p> (406) 677-3068 </p>
+          <p> wacekats@blackfoot.net </p>
+        </div>
+        <div class="col-md-6">
+          <p> Interested in the process and more pictures? </p>
+            <hr/>
+          <p> Check out the facebook Page: <a href="https://www.facebook.com/BlackfootCarvings/">Blackfoot Carvings.</a>
+          <p> Copyright 2016 William Kats and Blackfoot Carvings.  All Rights Reserved. </p>
+        </div>
       </div>
-      <img src="img/MIMlogo_MADE_NEWBW.jpg" alt="Made in Montana" height="200px" width="140px">
     </div>
-    
-  
 <!-- ^^^^^^^^^^^^^^^^^^^^^Links and style ^^^^^^^^^^^^^^^^^^^^^^^-->  
-
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/1.1.1/js/md5.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
-    <script type="text/javascript" src="app.js"></script>
-    
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script> 
+</body>

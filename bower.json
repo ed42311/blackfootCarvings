@@ -1,0 +1,20 @@
+{
+  "name": "blakfootcarvings",
+  "description": "This is the website for blackfoot carvings",
+  "main": "app.js",
+  "authors": [
+    "E Wey"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ed42311/blackfootCarvings",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  }
+}
